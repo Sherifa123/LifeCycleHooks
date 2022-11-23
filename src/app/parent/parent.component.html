@@ -1,0 +1,7 @@
+<div>
+  <button type="button" (click)="increment()">Increment</button>
+  <button type="button" (click)="decrement()">Decrement</button>
+  <button type="button" (click)="Remove()">Destroy</button>
+</div>
+
+<app-child *ngIf="ismynumber" [Num]="mynumber"></app-child>
